@@ -27,7 +27,7 @@ Note that this also works for keys that retain their modifiers between commands:
 > capslock
 ```
 
-A full list of usable non-character keys is available in the [commands](https://github.com/kvchen/uninstallgentoo/blob/master/docs/commands) list.
+A full list of usable non-character keys is available in the [commands](https://github.com/kvchen/uninstallgentoo/blob/master/docs/commands.md) list.
 
 
 ### Restrictions
