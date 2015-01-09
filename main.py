@@ -19,6 +19,9 @@ import logging
 import os
 
 
+# Import application-specific modules
+import config
+
 
 # Set save location for the logfile
 file_name = "logs/monitor.log"
@@ -29,8 +32,10 @@ logging.basicConfig(filename=file_name, level=logging.INFO)
 def main():
     parser = argparse.ArgumentParser(description="run Twitch Installs Arch")
     parser.add_argument("-d", "--debug", action="store_true", 
-    	help="run uninstallgentoo in debug mode")
+        help="run uninstallgentoo in debug mode")
     args = parser.parse_args()
+
+
 
 
     return
