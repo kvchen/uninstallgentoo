@@ -1,7 +1,7 @@
 Non-Character Keys
 ==================
 
-The listing contains all useable non-character keyboard commands that will be accepted. Alternatives for longer names are provided, separated by commas (for example, typing either `backspace` or `bksp` into chat will work).
+The listing contains all usable non-character keyboard commands that will be accepted. Alternatives for longer names are provided, separated by commas (for example, typing either `backspace` or `bksp` into chat will work).
 
 ### Directional Keys
 
