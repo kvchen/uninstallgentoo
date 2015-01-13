@@ -1,6 +1,6 @@
 # Sensitive files
 assets/
-config/
+config/auth.py
 logs/
 
 # Byte-compiled / optimized / DLL files
