@@ -49,10 +49,15 @@ logging.basicConfig(filename=file_name, level=logging.INFO)
 def main():
     parser = argparse.ArgumentParser(description="run uninstallgentoo")
     parser.add_argument("-d", "--debug", action="store_true", 
-        help="run uninstallgentoo in debug mode")
+        help="run in debug mode")
+    parser.add_argument("-n", "--no-gui", action="store_true", 
+        help="disable stream GUI")
+    parser.add_argument("-v", "--vm", type=str,
+        help="virtual machine image")
     args = parser.parse_args()
 
     if args.debug:
+        logging.basicConfig(filename=file_name, level=logging.DEBUG)
         logging.warn("Starting program in debug mode")
 
     return

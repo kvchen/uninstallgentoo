@@ -9,22 +9,22 @@ Uninstall Gentoo is an interactive stream in which users attempt to prove that 2
 
 ## Commands
 
-To send commands via chat, preface the commands with the right-facing angle bracket (`>`):
+To send commands via chat, preface the commands with an exclamation point (`!`):
 
 ```
-> rm -rf / --no-preserve-root
+!rm -rf / --no-preserve-root
 ```
 
 To use commands involving modifier keys, use the same notation but leave spaces between the keys being pressed:
 
 ```
-> ctrl c
+!ctrl c
 ```
 
 Note that this also works for keys that retain their modifiers between commands:
 
 ```
-> capslock
+!capslock
 ```
 
 A full list of usable non-character keys is available in the [commands](https://github.com/kvchen/uninstallgentoo/blob/master/docs/commands.md) list.
@@ -39,7 +39,7 @@ Because of the obviously insecure nature of this implementation, a number of res
 
 ## Installation
 
-
+This program runs on Windows 8 (unfortunately, OBS is only fully featured in Windows), but will run with limited functionality in both Mac OS X and Linux distributions.
 
 
 

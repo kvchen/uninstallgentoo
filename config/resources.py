@@ -16,13 +16,6 @@ colors = {
     }
 }
 
-themes = {
-    'arch': {}, 
-    'gentoo': {}, 
-    'matrix': {}, 
-    'terminal': {}, 
-}
-
 
 fonts = {
     'futura': {
@@ -33,3 +26,10 @@ fonts = {
     }
 }
 
+
+themes = {
+    'arch': {}, 
+    'gentoo': {}, 
+    'matrix': {}, 
+    'terminal': {}, 
+}
